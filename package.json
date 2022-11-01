@@ -1,0 +1,32 @@
+{
+  "name": "front-end-course",
+  "version": "1.0.0",
+  "description": "Front-end-course",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "sass --watch  scss/style.scss css/style.css",
+    "serve": "serve",
+    "start": "npm-run-all --parallel serve watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander010301/front-end-course.git"
+  },
+  "keywords": [
+    "HTML.",
+    "CSS.",
+    "Javascript"
+  ],
+  "author": "Alexander Zhornyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexander010301/front-end-course/issues"
+  },
+  "homepage": "https://github.com/Alexander010301/front-end-course#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.55.0",
+    "serve": "^14.0.1"
+  }
+}
